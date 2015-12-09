@@ -12,4 +12,4 @@ addons:
 
 
 script:
-  - run_me.sh
+  - ./run_me.sh
