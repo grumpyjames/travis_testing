@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+
+# Enable container-based architecture.
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - groovy
+
+
+script:
+  - run_me.sh
